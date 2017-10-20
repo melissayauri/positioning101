@@ -1,0 +1,24 @@
+/*contenedor general*/
+#box1{
+  width: 900px;
+  /*centrando el contenedor respecto al body*/
+  margin:0 auto;
+}
+/*pie de pagina*/
+#box2 {
+  /*Aaplicando position fixed para que se quede fijo */
+	position: fixed;
+  /*el eje de coordenadas es respecto a la ventana del navegador*/
+	bottom: 0;
+  /*aplicando coordenadas para que se mantenga en la parte inferior*/
+	left: 0;
+	right: 0;
+  background: #f95b34;
+  padding: 10px;
+
+}
+/*apparafo del pie de pagina*/
+#box2 p{
+  width: 900px;
+  margin: 0 auto;
+}

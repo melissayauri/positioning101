@@ -1,0 +1,28 @@
+#box1 {
+	/*Con esta posición se puede realizar un eje de coordenadas para movilizarlo y no afecta a otros elementos*/
+	position: relative;
+	/*tamaño*/
+	width: 200px;
+	height: 200px;
+	/*aplicando color fucsia al bloque*/
+	background: #ee3e64;
+}
+
+#box2 {
+  /*Permite realizar un eje de coordenadas*/
+	position: relative;
+  /*el bloque de color celeste se mueve 200px desde el lado izquierdo sin afectar a los otros*/
+  left: 200px;
+	width: 200px;
+	height: 200px;
+	/*aplicando color celeste al bloque*/
+	background: #44accf;
+}
+
+#box3 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	/*aplicando color verde limón al bloque*/
+	background: #b7d84b;
+}

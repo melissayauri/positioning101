@@ -1,0 +1,27 @@
+/*Implementando position static*/
+
+#box1 {
+/*es el valor predeterminado de un elemento*/
+	position: static;
+  /*tamaño*/
+	width: 200px;
+	height: 200px;
+  /*aplicando color fucsia en el fondo*/
+	background: #ee3e64;
+}
+
+#box2 {
+	/*position: static;*/
+	width: 200px;
+	height: 200px;
+  /*aplicando color celeste en el fondo*/
+	background: #44accf;
+}
+
+#box3 {
+	/*position: static;*/
+	width: 200px;
+	height: 200px;
+/*aplicando color verde limón en el fondo*/
+	background: #b7d84b;
+}

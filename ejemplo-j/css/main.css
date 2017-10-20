@@ -1,0 +1,66 @@
+body{
+  background: #44accf;
+  margin: 0;
+
+}
+
+/*contenedor general*/
+#main{
+  width: 900px;
+  /*centra el texto*/
+  margin: 0 auto;
+}
+/*encabezado*/
+#first{
+  height: 50px;
+  background: #b7d84b;
+}
+/*links*/
+#first a{
+
+  /*rompe el flujo habitual y se direcciona a la izquierda*/
+  float: left;
+  color: #fff;
+  /*genera espaciado entre cada link*/
+  padding-top: 0;
+  padding-right: 20px;
+  margin-left: 20px;
+  /*outline:1px solid blue;*/
+  /*ubicar la plabra en el centro del bloque*/
+  line-height: 50px;
+  border-right: 1px solid #91ab3b;
+}
+/*contenido*/
+#content{
+  /*aplicando position relative para que no afecte a otro elementos*/
+  position: relative;
+  padding: 20px 250px 60px 20px;
+  background: #fff;
+}
+/*mensaje del lado derecho*/
+#message{
+  /*aplicando position relative para establecer un eje de coordendas segun content*/
+  position: absolute;
+  /*ejes para situarlo en la parte central a la derecha*/
+  top:90px;
+  bottom: 90px;
+  right: -80px;
+  width: 200px;
+  /*color de fondo*/
+  background: #fa8366;
+  /*espaciado*/
+  padding: 0 30px;
+  border-top: 5px solid #f95b34;
+  color: white;
+}
+/*pie de pagina*/
+#footer{
+  /*posicionando de manera fija*/
+  position: fixed;
+  /*eje para que se mantenga abajo*/
+  bottom: 0;
+  width: 860px;
+  /*espaciado*/
+  padding:0 20px;
+  background: #f36283;
+}

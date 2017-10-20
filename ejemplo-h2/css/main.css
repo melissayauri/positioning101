@@ -1,0 +1,16 @@
+/*El bloque rojo se matiene en su lugar y el bloque azul se mueve ya que se le asigno una posición*/
+/*Por defecto tiene position static*/
+#box1 {
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+/*Aplicando position absolute*/
+#box2 {
+	position: absolute;
+  /*Se desplaza 100 px desde el lado izquierdo del body*/
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}

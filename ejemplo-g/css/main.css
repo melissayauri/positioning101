@@ -1,0 +1,19 @@
+/*Aplicando position relative*/
+#box1 {
+	position: absolute;
+	/*aplica sus coordendas en referencia al body*/
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	background: #44accf;
+}
+#box2 {
+	position: absolute;
+	/*aplica sus coordendas en referencia al body pero se ubica encima del bloque uno por los 20px dados*/
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	background: orange;
+}

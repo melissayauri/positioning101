@@ -1,0 +1,22 @@
+/*aplicando position absolute*/
+/*Los dos bloques parecen que se superponen pero los dos están en referencia al body*/
+/*bloque mas grande*/
+#box1 {
+	position: absolute;
+	top: 0;
+  /*el bloque fucsia se mueve un 20% desde el lado derecho del body*/
+	right: 20%;
+	bottom: 0;
+	left: 0;
+	background: #ee3e64;
+}
+/*bloque pequeño*/
+#box2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+  /*el bloque verde limón se mueve un 80% desde el lado izquierdo del body*/
+	left: 80%;
+	background: #b7d84b;
+}

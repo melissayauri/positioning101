@@ -1,0 +1,39 @@
+/*Aplicando position absolute*/
+#box1 {
+	/*establece su eje de coordenadas segun su elemento padre(body)*/
+	position: absolute;
+	/*ubicando el primer bloque el parte superior izquierda*/
+	top: 0;
+	left: 0;
+	/*tamaño*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box2 {
+	position: absolute;
+	/*ubicando el bloque celeste el parte superior derecha*/
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box3 {
+	position: absolute;
+	/*ubicando el bloque verde limón el parte inferior izquierda*/
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box4 {
+	position: absolute;
+	/*ubicando el bloque amarillo el parte inferior  derecha*/
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}

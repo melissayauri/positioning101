@@ -1,0 +1,73 @@
+/*Aplicando position absolute*/
+#box1 {
+	/*establece su eje de coordenadas según su elemento padre(body)*/
+	position: absolute;
+	/*ubicando el primer bloque el parte superior izquierda*/
+	top: 0;
+	left: 0;
+	/*tamaño*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box2 {
+	position: absolute;
+	/*ubicando el bloque celeste el parte superior derecha*/
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box3 {
+	position: absolute;
+	/*ubicando el bloque verde limón el parte inferior izquierda*/
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box4 {
+	position: absolute;
+	/*ubicando el bloque amarillo el parte inferior  derecha*/
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+/* Implementado bloques internos dentro de los bloques 1,2,3,4*/
+#boxa {
+	position: absolute;
+	/*eje de coordenadas para que el bloque se ubique en el centro del otro bloque*/
+	top: 80px;
+	right: 80px;
+	bottom: 80px;
+	left: 80px;
+	background: orange;
+}
+#boxb {
+	position: absolute;
+  top: 80px;
+  right: 80px;
+  bottom: 80px;
+  left: 80px;
+	background: orange;
+}
+#boxc {
+	position: absolute;
+  top: 80px;
+  right: 80px;
+  bottom: 80px;
+  left: 80px;
+	background: orange;
+}
+#boxd {
+	position: absolute;
+  top: 80px;
+  right: 80px;
+  bottom: 80px;
+  left: 80px;
+	background: orange;
+}
